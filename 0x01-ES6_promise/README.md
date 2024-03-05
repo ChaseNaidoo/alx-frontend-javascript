@@ -39,3 +39,7 @@ Write a function named guardrail that will accept one argument mathFunction (Fun
 This function should create and return an array named queue.
 When the mathFunction function is executed, the value returned by the function should be appended to the queue. If this function throws an error, the error message should be appended to the queue. In every case, the message Guardrail was processed should be added to the queue.
 
+# 100-await.js
+Import uploadPhoto and createUser from utils.js
+Write an async function named asyncUploadUser that will call these two functions and return an object with the following format
+If one of the async function fails, return an empty object.
